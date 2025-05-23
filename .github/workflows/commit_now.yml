@@ -6,7 +6,7 @@ on:
       email:
         description: 'EMail'
         required: true
-        default: '${{ secrets.EMAIL }}'
+        default: "${{ secrets.EMAIL }}"
       username:
         description: 'Username'
         required: true
