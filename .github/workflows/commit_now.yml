@@ -3,10 +3,6 @@ name: Commit Now
 on:
   workflow_dispatch:
     inputs:
-      email:
-        description: 'EMail'
-        required: true
-        default: "${{ secrets.EMAIL }}"
       username:
         description: 'Username'
         required: true
@@ -35,7 +31,7 @@ jobs:
       - name: Set Config
         run: |
           git config --global user.name "${{ github.event.inputs.username }}"
-          git config --global user.email "${{ github.event.inputs.email }}"
+          git config --global user.email "${{ secrets.EMAIL }}"
           git add -A
 
           arr[0]="chore(bot): 😂 auto commit"
