@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/adilhyz/penghijauan/master/preview.png" width="303" alt="Preview Penghijauan"/>
 </p>
 
-- `Penghijauan` artinya menghijaukan Kontribusi (contribution graph) bertujuan bercocok tanam commit supaya graph makin hijau dan kece! 🌳
+- `Penghijauan` Kontribusi (contribution graph) bertujuan bercocok tanam commit supaya graph makin hijau dan kece! 🌳
 ---
 
 > **Catatan:**  
